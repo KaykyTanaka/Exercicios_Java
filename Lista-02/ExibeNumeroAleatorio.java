@@ -12,8 +12,8 @@ public class ExibeNumeroAleatorio {
 
         Random aleatorio = new Random();
 
-        double numeroAleatorio = aleatorio.nextInt(100);
-        System.out.println(numeroAleatorio);
+        double numeroAleatorio = aleatorio.nextDouble(100);
+        System.out.printf("%.2f", numeroAleatorio);
 
     }
 }
