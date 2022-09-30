@@ -5,14 +5,12 @@
  * tipo double chamada numeroAleatorio. Por fim, exiba o valor dessa variável na saída padrão.
  * 
  */
-import java.util.Random;
+import java.lang.Math;
 
 public class ExibeNumeroAleatorio {
     public static void main(String[] args) {
 
-        Random aleatorio = new Random();
-
-        double numeroAleatorio = aleatorio.nextDouble(100);
+        double numeroAleatorio = Math.random() * 100;
         System.out.printf("%.2f", numeroAleatorio);
 
     }
