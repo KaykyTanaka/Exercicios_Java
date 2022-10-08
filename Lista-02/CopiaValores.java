@@ -4,6 +4,7 @@
  * Depois, declare outra variável do tipo float chamada numeroCopia. Essa variável deve ser
  * inicializada com uma cópia do valor armazenado na variável numero. Por fim, exiba os valores
  * armazenados nessas variáveis na saída padrão.
+ * 
  */
 
 public class CopiaValores {
