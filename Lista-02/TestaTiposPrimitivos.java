@@ -7,11 +7,10 @@
  * 
  */
 
-
 public class TestaTiposPrimitivos {
-	
-	public static void main (String[] args) {
-		
+
+	public static void main(String[] args) {
+
 		byte tipoByte = 125;
 		short tipoShort = 31987;
 		int tipoInt = 2100483647;
@@ -20,8 +19,9 @@ public class TestaTiposPrimitivos {
 		double tipoDouble = 421.568;
 		char tipoChar = 'K';
 		boolean tipoBoolean = true;
-		
-		System.out.println("Byte: " + tipoByte + "\nShort: " + tipoShort + "\nInt: " + tipoInt + "\nlong: " + tipoLong + "\nfloat: " + tipoFloat + "\ndouble: " + tipoDouble + "\nchar: " + tipoChar + "\nboolean: " + tipoBoolean);
+
+		System.out.println("Byte: " + tipoByte + "\nShort: " + tipoShort + "\nInt: " + tipoInt + "\nlong: " + tipoLong
+				+ "\nfloat: " + tipoFloat + "\ndouble: " + tipoDouble + "\nchar: " + tipoChar + "\nboolean: "
+				+ tipoBoolean);
 	}
 }
-

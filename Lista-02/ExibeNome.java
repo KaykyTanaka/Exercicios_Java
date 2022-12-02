@@ -7,7 +7,7 @@
 
 public class ExibeNome {
     public static void main(String[] args) {
-        
+
         String nome = "Kayky Tanaka";
         System.out.printf("Nome: %s", nome);
     }

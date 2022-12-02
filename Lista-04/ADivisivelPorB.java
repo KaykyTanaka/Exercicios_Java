@@ -12,6 +12,7 @@
  */
 
 import java.util.Scanner;
+
 public class ADivisivelPorB {
 
 	public static void main(String[] args) {

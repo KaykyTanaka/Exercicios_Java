@@ -18,6 +18,7 @@ public class ExibeValores {
         boolean g = true;
         char h = 'K';
 
-        System.out.printf("byte: %s\nshort: %s\nint: %s\nlong: %s\nfloat: %s\ndouble: %s\nboolean: %s\nchar: %s", a,b,c,d,e,f,g,h);
+        System.out.printf("byte: %s\nshort: %s\nint: %s\nlong: %s\nfloat: %s\ndouble: %s\nboolean: %s\nchar: %s", a, b,
+                c, d, e, f, g, h);
     }
 }

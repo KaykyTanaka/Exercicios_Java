@@ -8,18 +8,17 @@
  * 
  */
 
-
 public class Exercicio10 {
-	
-	public static void main (String[] args) {
-		
-        short numeroPedido = 348;
-        int codigo = 107790;
-        byte quantidade = 78;
-        double total = 5650.85;
 
-        System.out.println("numero do pedido: " + numeroPedido + "\ncodigo do produto: " + codigo + "\nquantidade: " + quantidade + "\nvalor total da compra: " + total);
-		
-	}
+        public static void main(String[] args) {
+
+                short numeroPedido = 348;
+                int codigo = 107790;
+                byte quantidade = 78;
+                double total = 5650.85;
+
+                System.out.println("numero do pedido: " + numeroPedido + "\ncodigo do produto: " + codigo
+                                + "\nquantidade: " + quantidade + "\nvalor total da compra: " + total);
+
+        }
 }
-

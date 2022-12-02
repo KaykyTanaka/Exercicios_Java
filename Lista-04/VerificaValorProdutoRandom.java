@@ -1,6 +1,4 @@
 /*
- * Kayky Tanaka de Abreu 
- * 
  * VerificaValorProdutoRandom.java
  * 
  * 3 - Crie um arquivo chamado VerificaValorProdutoRandom.java. Gere dois números aleatórios

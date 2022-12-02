@@ -12,6 +12,6 @@ public class CopiaValores {
         float numero = 3.14f;
         float numeroCopia = numero;
 
-        System.out.println("Número: " + numero +"\nCopia do número: " + numeroCopia);
+        System.out.println("Número: " + numero + "\nCopia do número: " + numeroCopia);
     }
 }
