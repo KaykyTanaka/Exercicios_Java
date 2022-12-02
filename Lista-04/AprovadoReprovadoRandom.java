@@ -1,6 +1,4 @@
 /*
- * Kayky Tanaka de Abreu 
- * 
  * AprovadoReprovadoRandom.java
  * 
  * 1 - Crie um arquivo chamado AprovadoReprovadoRandom.java. Gere um número aleatório com

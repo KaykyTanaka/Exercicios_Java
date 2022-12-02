@@ -1,6 +1,4 @@
 /*
- * Kayky Tanaka de Abreu
- * 
  * Saudacao.java
  * 
  * 7 - Crie um arquivo chamado Saudacao.java. Implemente um programa em Java que declare uma
@@ -15,7 +13,6 @@
 
 import java.util.Scanner;
 import java.lang.Math;
-
 public class Saudacao {
 
 	public static void main(String[] args) {

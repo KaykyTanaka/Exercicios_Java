@@ -1,6 +1,4 @@
 /*
- * Kayky Tanaka de Abreu 
- * 
  * AprovadoReprovado.java
  * 
  * 2 - Crie um arquivo chamado AprovadoReprovado.java. Solicite ao usuário que digite o valor para
@@ -13,7 +11,6 @@
  */
 
 import java.util.Scanner;
-
 public class AprovadoReprovado {
 	public static void main(String[] args) {
 		Scanner leia = new Scanner(System.in);

@@ -1,6 +1,4 @@
 /*
- * Kayky Tanaka de Abreu
- * 
  * VerificaValorProduto.java
  * 
  * 4 - Crie um arquivo chamado VerificaValorProduto.java. Solicite ao usuário que digite os valores
