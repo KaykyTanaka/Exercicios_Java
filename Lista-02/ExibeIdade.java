@@ -4,6 +4,7 @@
  * fim, exiba o valor dessa variável na saída padrão.
  * 
  */
+
 public class ExibeIdade {
     public static void main(String[] args) {
         int idade = 18;
