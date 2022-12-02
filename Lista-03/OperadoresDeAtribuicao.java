@@ -1,6 +1,4 @@
 /*
- * Kayky Tanaka de Abreu
- * 
  * OperadoresDeAtribuicao.java
  * 
  * 9 - Crie um arquivo chamado OperadoresDeAtribuicao.java. Complete o código, substituindo a

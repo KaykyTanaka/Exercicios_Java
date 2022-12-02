@@ -1,6 +1,4 @@
 /*
- * Kayky Tanaka de Abreu 
- * 
  * TiposDeResultado.java
  * 
  * 5 - Crie um arquivo chamado TiposDeResultado.java. Complete o código a seguir, substituindo a

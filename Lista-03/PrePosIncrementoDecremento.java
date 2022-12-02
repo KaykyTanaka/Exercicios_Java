@@ -1,6 +1,4 @@
 /*
- * Kayky Tanaka de Abreu 
- * 
  * PrePosIncrementoDecremento.java
  * 
  * 14 - Crie um arquivo chamado PrePosIncrementoDecremento.java. Complete o código, substituindo

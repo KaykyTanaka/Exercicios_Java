@@ -1,6 +1,4 @@
-/*
- * Kayky Tanaka de Abreu 
- * 
+/* 
  * OperadorNegacao.java
  * 
  * 13 - Crie um arquivo chamado OperadorNegacao.java. Complete o código, substituindo a seqüência

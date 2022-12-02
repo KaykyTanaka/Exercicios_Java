@@ -1,6 +1,4 @@
-/*
- * Kayky Tanaka de Abreu 
- * 
+/* 
  * OverflowUnderflow.java
  * 
  * 7 - Crie um arquivo chamado OverflowUnderflow.java. Complete o código, substituindo a

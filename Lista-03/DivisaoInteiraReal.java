@@ -1,6 +1,4 @@
 /*
- * Kayky Tanaka de Abreu 
- * 
  * DivisaoInteiraReal.java
  * 
  * 6 - Crie um arquivo chamado DivisaoInteiraReal.java. Complete o código, substituindo a seqüência

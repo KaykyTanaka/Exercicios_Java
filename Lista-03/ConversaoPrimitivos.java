@@ -1,6 +1,4 @@
 /*
- * Kayky Tanaka de Abreu 
- * 
  * ConversaoPrimitivos.java
  * 
  * 1 - Crie um arquivo chamado ConversaoPrimitivos.java. Para eliminar os erros de compilação,

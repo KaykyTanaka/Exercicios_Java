@@ -1,6 +1,4 @@
-/*
- * Kayky Tanaka de Abreu 
- * 
+/* 
  * Casting.java
  * 
  * 2 - Crie um arquivo chamado Casting.java. Crie uma variável chamada numero1 do tipo long e

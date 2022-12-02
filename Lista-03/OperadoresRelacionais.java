@@ -1,6 +1,4 @@
 /*
- * Kayky Tanaka de Abreu
- * 
  * OperadoresRelacionais.java
  * 
  * 10 - Crie um arquivo chamado OperadoresRelacionais.java. Complete o código, substituindo a

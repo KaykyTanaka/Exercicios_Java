@@ -1,6 +1,4 @@
 /*
- * Kayky Tanaka de Abreu 
- * 
  * Conversao.java
  * 
  * 3 - Crie um arquivo chamado Conversao.java. Crie uma variável chamada texto do tipo String e

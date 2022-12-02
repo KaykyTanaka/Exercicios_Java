@@ -1,6 +1,4 @@
 /*
- * Kayky Tanaka de Abreu
- * 
  * OperadoresLogicos.java
  * 
  * 11 - crie um arquivo chamado OperadoresLogicos.java. Complete o código, substituindo a

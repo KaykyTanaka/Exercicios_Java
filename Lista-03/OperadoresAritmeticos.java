@@ -1,6 +1,4 @@
 /*
- * Kayky Tanaka de Abreu 
- * 
  * OperadoresAritmeticos.java
  * 
  * 4 - Crie um arquivo chamado OperadoresAritmeticos.java. Complete o código a seguir no local

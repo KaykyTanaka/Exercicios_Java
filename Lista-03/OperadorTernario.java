@@ -1,6 +1,4 @@
 /*
- * Kayky Tanaka de Abreu 
- * 
  * OperadorTernario.java
  * 
  * 12 - crie um arquivo chamado OperadorTernario.java. Complete o código, substituindo a seqüência

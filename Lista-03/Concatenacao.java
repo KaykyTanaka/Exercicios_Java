@@ -1,6 +1,4 @@
 /*
- * Kayky Tanaka de Abreu 
- * 
  * Concatenacao.java
  * 
  * 8 - Crie um arquivo chamado Concatenacao.java. Complete o código, substituindo a seqüência
