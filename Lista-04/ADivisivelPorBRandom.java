@@ -1,6 +1,4 @@
 /*
- * Kayky Tanaka de Abreu
- * 
  * ADivisivelPorBRandom.java
  * 
  * 5 - Crie um arquivo chamado ADivisivelPorBRandom.java. Implemente um programa em Java que
