@@ -21,7 +21,7 @@ public class TestaTiposPrimitivos {
 		char tipoChar = 'K';
 		boolean tipoBoolean = true;
 		
-		System.out.printf("Byte: \nShort: \nInt: \nlong: \nfloat: \ndouble: %2f \nchar: \nboolean: ");
+		System.out.println("Byte: " + tipoByte + "\nShort: " + tipoShort + "\nInt: " + tipoInt + "\nlong: " + tipoLong + "\nfloat: " + tipoFloat + "\ndouble: " + tipoDouble + "\nchar: " + tipoChar + "\nboolean: " + tipoBoolean);
 	}
 }
 
