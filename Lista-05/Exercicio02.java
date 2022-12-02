@@ -14,8 +14,10 @@ public class Exercicio02 {
 	public static void main(String[] args) {
 		Scanner leia = new Scanner(System.in);
 		int num;
+
 		System.out.print("Insira um numero: ");
 		num = leia.nextInt();
+
 		if (num < 0) {
 			System.out.println("O valor inserido e NEGATIVO");
 		} else {

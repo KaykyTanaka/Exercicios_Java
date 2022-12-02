@@ -16,6 +16,7 @@ public class Exercicio03 {
 		Scanner leia = new Scanner(System.in);
 		int quantidade;
 		double total;
+
 		System.out.print("Insira o numero de macas compradas: ");
 		quantidade = leia.nextInt();
 
