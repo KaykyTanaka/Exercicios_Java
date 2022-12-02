@@ -1,5 +1,5 @@
 /*
- * TesteTipos.java.
+ * TesteTipos.java
  * 
  * 7 – Indique os tipos da linguagem Java que aceitam cada valor da lista abaixo. 
  * 
