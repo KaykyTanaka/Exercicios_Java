@@ -29,6 +29,7 @@ public class Exercicio23 {
 		do {
 			System.out.print("Salario: ");
 			salario = leia.nextDouble();
+			
 
 			if (salario >= 0) {
 				System.out.print("Numero de filhos: ");
