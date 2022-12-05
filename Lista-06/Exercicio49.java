@@ -10,27 +10,36 @@ import java.util.Scanner;
 
 public class Exercicio49 {
 
-    public static void main(String[] args) {
-        Scanner leia = new Scanner(System.in);
-        int qtd, cont, x = 0, cont1 = 0;
+	public static void main(String[] args) {
+		Scanner leia = new Scanner(System.in);
+		int qtd = 0, x = 1, contador = 0;
 
-        System.out.print("Insira a quantidade de termos da sequencia de numeros primos: ");
-        qtd = leia.nextInt();
+		String saida = "";
 
-        do {
-            cont = 0;
+		do {
+			System.out.print("A quantidade de termos da sequencia de numeros primos: ");
+			qtd = leia.nextInt();
 
-            for (int i = 1; i <= x; i++) {
-                if (x % i == 0) {
-                    cont++;
-                }
-            }
-            if (cont == 2) {
-                System.out.print(x + " | ");
+			if (qtd > 0) {
+				x = 1;
+				saida = "";
+				for (int termo = 1; termo <= qtd;) {
+					contador = 0;
+					for (int i = 1; i <= x; i++) {
+						if (x % i == 0) {
+							contador++;
+						}
+					}
+					if (contador == 2) {
+						saida = x + " " + saida;
+						termo++;
+					}
+					x++;
+				}
+				System.out.print(saida);
+			}
+			System.out.println();
+		} while (qtd > 0);
 
-                cont1++;
-            }
-            x++;
-        } while (cont1 < qtd);
-    }
+	}
 }

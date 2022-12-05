@@ -7,9 +7,10 @@
  */
 
 import java.util.Scanner;
+
 public class Exercicio48 {
-	
-	public static void main (String[] args) {
+
+    public static void main(String[] args) {
         Scanner leia = new Scanner(System.in);
         int qtd, cont, x = 0, cont1 = 0;
 
