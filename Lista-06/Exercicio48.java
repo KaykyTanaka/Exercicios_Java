@@ -28,6 +28,6 @@ public class Exercicio48 {
                 cont1++;
             }
             x++;
-        } while (cont1 != qtd);
+        } while (cont1 < qtd);
     }
 }
