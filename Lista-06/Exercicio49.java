@@ -1,15 +1,16 @@
 /*
- * Exercicio48.java
+ * Exercicio49.java
  * 
- * 48) Solicite ao usuário a quantidade de termos da sequência de números primos e imprima o resultado.
+ * 49) Solicite ao usuário a quantidade de termos da sequência de números primos e imprima a sequência do final para o início.
  * 
  * 
  */
 
 import java.util.Scanner;
-public class Exercicio48 {
-	
-	public static void main (String[] args) {
+
+public class Exercicio49 {
+
+    public static void main(String[] args) {
         Scanner leia = new Scanner(System.in);
         int qtd, cont, x = 0, cont1 = 0;
 
