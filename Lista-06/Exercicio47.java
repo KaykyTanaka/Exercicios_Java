@@ -6,26 +6,25 @@
  * 
  */
 
-
 public class Exercicio47 {
-	
-	public static void main (String[] args) {
+
+	public static void main(String[] args) {
 		int num = 1;
 		int cont = 0;
-		
-		do{
+
+		do {
 			cont = 0;
-			for (int i = 1; i <= num; i++){
-				if(num%i==0){
+			for (int i = 1; i <= num; i++) {
+				if (num % i == 0) {
 					cont++;
 				}
 			}
-			
-			if(cont == 2){
+
+			if (cont == 2) {
 				System.out.print(num + " | ");
 			}
-			
+
 			num++;
-		} while (num<=100);
+		} while (num <= 100);
 	}
 }

@@ -7,28 +7,27 @@
  */
 
 import java.util.Scanner;
+
 public class Exercicio46 {
-	
-	public static void main (String[] args) {
+
+	public static void main(String[] args) {
 		Scanner leia = new Scanner(System.in);
 		int num, cont = 0;
-		
+
 		System.out.print("Digite um numero: ");
 		num = leia.nextInt();
-		
-		for (int i = 1; i <= num; i++){
-			if(num%i == 0){
+
+		for (int i = 1; i <= num; i++) {
+			if (num % i == 0) {
 				cont++;
 			}
 		}
-		
-		if(cont == 2){
+
+		if (cont == 2) {
 			System.out.println(num + " e primo");
-		}else{
+		} else {
 			System.out.println(num + " nao e primo");
 		}
-		
-		
-		
+
 	}
 }
