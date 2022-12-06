@@ -14,17 +14,18 @@ public class Exercicio16 {
 		Scanner leia = new Scanner(System.in);
 		String frase;
 		int cont = 0;
-		
+
 		System.out.print("Digite uma frase: ");
 		frase = leia.nextLine();
-			for (int j = 0; j < frase.length(); j++){
-				if(frase.charAt(j)>='a' && frase.charAt(j)<='z' ){
-					cont++;
-				}
+
+		for (int j = 0; j < frase.length(); j++) {
+			if (frase.charAt(j) >= 'a' && frase.charAt(j) <= 'z') {
+				cont++;
 			}
-		if(cont == 0){
+		}
+		if (cont == 0) {
 			System.out.println("Todos os caracteres alfabeticos sao maiusculos!");
-		}else{
+		} else {
 			System.out.println("A frase nao contem todos os caracteres alfabeticos maiusculos");
 		}
 	}

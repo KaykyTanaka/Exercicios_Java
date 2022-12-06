@@ -17,21 +17,19 @@ public class Exercicio15 {
 
 		System.out.print("Digite uma frase: ");
 		frase = leia.nextLine().toLowerCase();
-		
-		for (int i = '0'; i <= '9'; i++){
-			for (int j = 0; j < frase.length(); j++){
-				if(frase.charAt(j) == i){
+
+		for (int i = '0'; i <= '9'; i++) {
+			for (int j = 0; j < frase.length(); j++) {
+				if (frase.charAt(j) == i) {
 					cont++;
 				}
 			}
 		}
-		if(cont > 0){
+		if (cont > 0) {
 			System.out.println("A frase possui caracteres numericos!");
-		}else{
+		} else {
 			System.out.println("A frase NAO possui caracteres numericos");
 		}
-		
-		
-		
+
 	}
 }
