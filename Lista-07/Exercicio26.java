@@ -18,12 +18,29 @@ public class Exercicio26 {
 	public static void main(String[] args) {
 		Scanner leia = new Scanner(System.in);
 		String aleatorio = "";
-		String test = "";
+		String saida = "";
+		boolean x = false;
 		
-		for (int i = 0 ; i < 10 ; i++) {
+		for (int i = 0 ; i <= 100 ; i++) {
 			aleatorio += (char)((int)(Math.random() * 26) + 'a');
 		}
 		System.out.println(aleatorio);
+		
+		for (int i = 'a'; i <= 'z'; i++){
+			x = false;
+			for (int a = 0; a < aleatorio.length(); a++){
+				if (i==aleatorio.charAt(a)){
+					x = true;
+				}
+			}
+			if (x == false){
+				saida += (char)i+", ";
+			}
+		}
+		
+		if (saida.isEmpty()!=true){
+			System.out.println(saida + "nao constam na sequencia");
+		}
 		
 	}
 }
