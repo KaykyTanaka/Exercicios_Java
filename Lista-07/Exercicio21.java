@@ -11,16 +11,16 @@ import java.util.Scanner;
 public class Exercicio21 {
 
 	public static void main(String[] args) {
-	Scanner leia = new Scanner(System.in); 
+		Scanner leia = new Scanner(System.in);
 		String frase;
 		int cont = 0;
-		
+
 		System.out.print("Digite uma palavra: ");
 		frase = leia.nextLine();
-		
+
 		String palavra[] = frase.split(" ");
-		
-		for (int i = 0; i < palavra.length; i++){
+
+		for (int i = 0; i < palavra.length; i++) {
 			System.out.println(palavra[i]);
 		}
 	}

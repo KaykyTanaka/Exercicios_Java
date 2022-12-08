@@ -20,27 +20,27 @@ public class Exercicio26 {
 		String aleatorio = "";
 		String saida = "";
 		boolean x = false;
-		
-		for (int i = 0 ; i <= 100 ; i++) {
-			aleatorio += (char)((int)(Math.random() * 26) + 'a');
+
+		for (int i = 0; i <= 100; i++) {
+			aleatorio += (char) ((int) (Math.random() * 26) + 'a');
 		}
 		System.out.println(aleatorio);
-		
-		for (int i = 'a'; i <= 'z'; i++){
+
+		for (int i = 'a'; i <= 'z'; i++) {
 			x = false;
-			for (int a = 0; a < aleatorio.length(); a++){
-				if (i==aleatorio.charAt(a)){
+			for (int a = 0; a < aleatorio.length(); a++) {
+				if (i == aleatorio.charAt(a)) {
 					x = true;
 				}
 			}
-			if (x == false){
-				saida += (char)i+", ";
+			if (x == false) {
+				saida += (char) i + ", ";
 			}
 		}
-		
-		if (saida.isEmpty()!=true){
+
+		if (saida.isEmpty() != true) {
 			System.out.println(saida + "nao constam na sequencia");
 		}
-		
+
 	}
 }

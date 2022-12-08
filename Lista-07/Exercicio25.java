@@ -48,25 +48,25 @@ public class Exercicio25 {
 			if (senha.charAt(i) >= '0' && senha.charAt(i) <= '9') {
 				numero++;
 			}
-			for (int s = 0; s < simb.length(); s++){
+			for (int s = 0; s < simb.length(); s++) {
 				if (senha.charAt(i) == simb.charAt(s)) {
-				simbolo++;
+					simbolo++;
 				}
 			}
 		}
 
 		if (senha.length() >= 10 && letra >= 3 && numero >= 3 && simbolo >= 2) {
-			System.out.println("Senha: " + senha + "\nRegras: " + "\nTamanho(10)-> " + senha.length() + 
-							"\nLetras(3)-> " + letra +
-							"\nNumeros(3)-> " + numero +
-							"\nSimbolos(2)-> " + simbolo +
-							"\nSenha aprovada! Parabens!");
+			System.out.println("Senha: " + senha + "\nRegras: " + "\nTamanho(10)-> " + senha.length() +
+					"\nLetras(3)-> " + letra +
+					"\nNumeros(3)-> " + numero +
+					"\nSimbolos(2)-> " + simbolo +
+					"\nSenha aprovada! Parabens!");
 		} else {
-			System.out.println("Senha: " + senha + "\nRegras: " + "\nTamanho(10)-> " + senha.length() + 
-							"\nLetras(3)-> " + letra +
-							"\nNumeros(3)-> " + numero +
-							"\nSimbolos(2)-> " + simbolo +
-							"\nSenha reprovada! Tente novamente.");
+			System.out.println("Senha: " + senha + "\nRegras: " + "\nTamanho(10)-> " + senha.length() +
+					"\nLetras(3)-> " + letra +
+					"\nNumeros(3)-> " + numero +
+					"\nSimbolos(2)-> " + simbolo +
+					"\nSenha reprovada! Tente novamente.");
 		}
 	}
 }
