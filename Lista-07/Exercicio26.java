@@ -37,9 +37,8 @@ public class Exercicio26 {
 				saida += (char) i + ", ";
 			}
 		}
-
 		if (saida.isEmpty() != true) {
-			System.out.println(saida + "nao constam na sequencia");
+			System.out.println(saida + "nao consta na sequencia");
 		}
 
 	}
