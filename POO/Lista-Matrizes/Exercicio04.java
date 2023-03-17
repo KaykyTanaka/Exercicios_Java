@@ -1,14 +1,16 @@
+
 /*
-4) Escreva um programa em Java para
-ler uma matriz D de dimensão N x M,
-onde N e M não poderem ser menores que um. Gerar os elementos
-aleatoriamente. O usuário deve informar a dimensão (linha e coluna) e um
-valor máximo para elementos aleatórios. O programa efetuar todas as
-validações. Lembre-se de aproveitar os recursos da linguagem Java para
-facilitar as validações
-
-
+ * 4) Escreva um programa em Java para
+ * ler uma matriz D de dimensão N x M,
+ * onde N e M não poderem ser menores que um. Gerar os elementos
+ * aleatoriamente. O usuário deve informar a dimensão (linha e coluna) e um
+ * valor máximo para elementos aleatórios. O programa efetuar todas as
+ * validações. Lembre-se de aproveitar os recursos da linguagem Java para
+ * facilitar as validações
+ * 
+ *
  */
+
 import java.util.Scanner;
 
 public class Exercicio04 {

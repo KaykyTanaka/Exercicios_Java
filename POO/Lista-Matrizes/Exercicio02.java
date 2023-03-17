@@ -9,34 +9,32 @@
  * 
  */
 
-
 public class Exercicio02 {
-	
-	public static void main (String[] args) {
-		
+
+	public static void main(String[] args) {
+
 		int matriz[][] = new int[6][3];
-		
-		for (int i = 0; i < matriz.length; i++){
-			for (int j = 0; j < matriz[i].length; j++){
-				matriz[i][j] = (int)(Math.random()*100);
+
+		for (int i = 0; i < matriz.length; i++) {
+			for (int j = 0; j < matriz[i].length; j++) {
+				matriz[i][j] = (int) (Math.random() * 100);
 			}
-			
+
 		}
-		
+
 		System.out.println("Matriz Gerada: ");
-		for (int i = 0; i < matriz.length; i++){
-			for (int j = 0; j < matriz[i].length; j++){
+		for (int i = 0; i < matriz.length; i++) {
+			for (int j = 0; j < matriz[i].length; j++) {
 				System.out.print("[" + matriz[i][j] + "]\t");
 			}
 			System.out.println();
 		}
 		System.out.println("\nMatriz Invertida: ");
-		for (int i = matriz.length-1; i >= 0 ; i--){
-			for (int j = matriz[i].length-1 ; j >=0 ; j--){
+		for (int i = matriz.length - 1; i >= 0; i--) {
+			for (int j = matriz[i].length - 1; j >= 0; j--) {
 				System.out.print("[" + matriz[i][j] + "]\t");
 			}
 			System.out.println();
 		}
 	}
 }
-
