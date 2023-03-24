@@ -1,15 +1,15 @@
 /*
- * Exercicio11.java
+ * Exercicio12.java
  * 
- * 11)Escreva um programa em Java para gerar uma matriz quadrada K de dimensão N.
- * Imprimir os elementos da abaixo da diagonal principal (inclusa).
+ * 12)Escreva um programa em Java para gerar uma matriz quadrada L de dimensão N. 
+ * Imprimir os elementos da acima da diagonal principal (exclusa).
  * 
  * 
  */
 
 import java.util.Scanner;
 
-public class Exercicio11 {
+public class Exercicio12 {
     public static void main(String[] args) {
 
         Scanner leia = new Scanner(System.in);
@@ -33,10 +33,10 @@ public class Exercicio11 {
             System.out.println();
         }
 
-        System.out.println("Elementos abaixo da diagonal principal (inclusa):");
+        System.out.println("Elementos acima da diagonal principal (exclusa): ");
         for (int linha = 0; linha < k.length; linha++) {
             for (int coluna = 0; coluna < k[0].length; coluna++) {
-                if (linha == coluna || linha > coluna) {
+                if (linha < coluna) {
                     System.out.print("[" + k[linha][coluna] + "]" + "\t");
                 } else {
                     System.out.print(" \t");
