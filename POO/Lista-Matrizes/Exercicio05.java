@@ -1,4 +1,6 @@
 /*
+ * Exercicio05.java
+ * 
  * 5) Escreva um programa em Java para
  * ler 2 matrizes N x M (definido pelo usuário) e
  * calcular a soma entre elas gerando uma terceira matriz.

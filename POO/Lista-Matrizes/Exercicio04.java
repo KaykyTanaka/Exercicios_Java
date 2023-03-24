@@ -1,5 +1,6 @@
-
 /*
+ * Exercicio04.java
+ *
  * 4) Escreva um programa em Java para
  * ler uma matriz D de dimensão N x M,
  * onde N e M não poderem ser menores que um. Gerar os elementos
