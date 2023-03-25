@@ -1,29 +1,23 @@
 
 /*
- * Exercicio29.java
+ * Exercicio30.java
  * 
- * 29)Escreva um programa em Java para solicitar ao usuário um valor.
- * Este valor lido será a quantidade de elementos de um vetor.Gerar os elementos
- * do vetor.A partir do vetor gerado,criar uma matriz,onde a quantidade de
- * linhas será igual à quantidade de elementos do vetor e as colunas serão os
- * valores dos elementos do vetor mais um.Com a matriz criada,armazenar na
- * primeira coluna de cada linha o respectivo ele-mento do vetor criado
- * inicialmente e os demais elementos da linha serão formados pela sequencia de
- * Primos.Imprimir a matriz resultante.
+ * 30) Item ao exercício anterior, mas utilizando a sequencia de Fibonacci.
  * 
  * 
  */
 
 import java.util.Scanner;
 
-public class Exercicio29 {
+public class Exercicio30 {
     public static void main(String[] args) {
         Scanner leia = new Scanner(System.in);
         System.out.print("Digite a quantidade de elementos para o vetor: ");
         int n = leia.nextInt();
 
-        int num = 2;
-        int cont, qtd = 0;
+        int f;
+        int proximo = 1;
+        int anterior = 0;
         int soma = 0;
 
         int vetor[] = new int[n];
@@ -35,21 +29,14 @@ public class Exercicio29 {
             System.out.print("[" + vetor[i] + "]");
         }
 
-        int primos[] = new int[soma];
+        int fibo[] = new int[soma];
 
-        do {
-            cont = 0;
-            for (int k = 1; k <= num; k++) {
-                if (num % k == 0) {
-                    cont++;
-                }
-            }
-            if (cont == 2) {
-                primos[qtd] = num;
-                qtd++;
-            }
-            num++;
-        } while (qtd < (primos.length));
+        for (int i = 1; i < fibo.length; i++) {
+            f = anterior + proximo;
+            anterior = proximo;
+            proximo = f;
+            fibo[i] = anterior;
+        }
 
         int matriz[][] = new int[vetor.length][];
 
@@ -58,7 +45,7 @@ public class Exercicio29 {
             matriz[i][0] = vetor[i];
 
             for (int j = 1; j < matriz[i].length; j++) {
-                matriz[i][j] = primos[j - 1];
+                matriz[i][j] = fibo[j - 1];
             }
         }
         System.out.println("\n\nMatriz gerada: ");
