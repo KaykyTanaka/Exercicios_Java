@@ -8,36 +8,36 @@
  * 
  */
 
-
 import java.util.Scanner;
+
 public class Exercicio05 {
-	
-	public static void main (String[] args) {
+
+	public static void main(String[] args) {
 		Scanner leia = new Scanner(System.in);
 		int cont;
 		int num = 0;
-	
+
 		do {
-            cont = 0;
-            for (int k = 1; k <= num; k++) {
-                if (num % k == 0) {
-                    cont++;
-                }
-            }
-            if (cont == 2) {
-               System.out.print(num + "|");
-                
-            }
-            num++;
-        } while (num <= 1000);
-        
-        System.out.print("\nDigite um numero inteiro: ");
+			cont = 0;
+			for (int k = 1; k <= num; k++) {
+				if (num % k == 0) {
+					cont++;
+				}
+			}
+			if (cont == 2) {
+				System.out.print(num + "|");
+
+			}
+			num++;
+		} while (num <= 1000);
+
+		System.out.print("\nDigite um numero inteiro: ");
 		int x = leia.nextInt();
 		System.out.println("\nO valor digitado e primo: " + ePrimo(x));
-		
+
 	}
-	
-	static boolean ePrimo(int num){
+
+	static boolean ePrimo(int num) {
 		int cont;
 		do {
 			cont = 0;
@@ -46,10 +46,10 @@ public class Exercicio05 {
 					cont++;
 				}
 			}
-			
+
 			if (cont == 2) {
-				return true; 
-			}else{
+				return true;
+			} else {
 				return false;
 			}
 		} while (cont <= num);

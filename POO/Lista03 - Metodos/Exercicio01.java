@@ -12,22 +12,21 @@
  */
 
 import java.util.Scanner;
+
 public class Exercicio01 {
-	
-	public static void main (String[] args) {
+
+	public static void main(String[] args) {
 		Scanner leia = new Scanner(System.in);
-		
+
 		System.out.print("Digite a temperatura em Celsius: ");
 		int celsius = leia.nextInt();
-		
+
 		System.out.println("A temperatura em Fahrenheit é: " + converter(celsius));
-		
+
 	}
-	
-	static int converter(int temp){
-		
-		
-		return (9*temp/5) + 32;
+
+	static int converter(int temp) {
+
+		return (9 * temp / 5) + 32;
 	}
 }
-

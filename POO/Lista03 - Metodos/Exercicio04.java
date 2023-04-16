@@ -11,43 +11,44 @@
  * 
  */
 
-
 import java.util.Scanner;
 import java.util.Arrays;
+
 public class Exercicio04 {
-	
-	public static void main (String[] args) {
-	Scanner leia = new Scanner(System.in);
-	
-	System.out.print("Entre com a nota1: ");
-	int n1 = leia.nextInt();
-	System.out.print("Entre com a nota2: ");
-	int n2 = leia.nextInt();
-	System.out.print("Entre com a nota3: ");
-	int n3 = leia.nextInt();
-	
-	if (n1>10 || n1<0){
-		n1 = 0;
+
+	public static void main(String[] args) {
+		Scanner leia = new Scanner(System.in);
+
+		System.out.print("Entre com a nota1: ");
+		int n1 = leia.nextInt();
+		System.out.print("Entre com a nota2: ");
+		int n2 = leia.nextInt();
+		System.out.print("Entre com a nota3: ");
+		int n3 = leia.nextInt();
+
+		if (n1 > 10 || n1 < 0) {
+			n1 = 0;
+		}
+		if (n2 > 10 || n2 < 0) {
+			n2 = 0;
+		}
+		if (n3 > 10 || n3 < 0) {
+			n3 = 0;
+		}
+
+		System.out.println(resultado(n1, n2, n3));
+
 	}
-	if (n2>10 || n2<0){
-		n2 = 0;
-	}
-	if (n3>10 || n3<0){
-		n3 = 0;
-	}
-		
-	System.out.println(resultado(n1,n2,n3));
-		
-	}
-	
-	static String resultado(int n1, int n2, int n3){
+
+	static String resultado(int n1, int n2, int n3) {
 		int notas[] = new int[3];
 		notas[0] = n1;
 		notas[1] = n2;
 		notas[2] = n3;
 		Arrays.sort(notas);
-		
-		return "Média maiores: " +(notas[2]+notas[1])/2 + "\nMédia aritmética: " + (n1+n2+n3)/3 + "\nMaior nota: " + notas[2] + "\nMenor nota: " + notas[0];
+
+		return "Média maiores: " + (notas[2] + notas[1]) / 2 + "\nMédia aritmética: " + (n1 + n2 + n3) / 3
+				+ "\nMaior nota: " + notas[2] + "\nMenor nota: " + notas[0];
 	}
-	
+
 }

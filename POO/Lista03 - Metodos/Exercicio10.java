@@ -1,18 +1,19 @@
 /*
- * Exercicio08.java
+ * Exercicio10.java
  * 
- * 8) [POO-021] ===Desafio!!!=== Crie um programa que solicite ao usuário um número inteiro, que
+ * 10) [POO-023] ===Desafio!!!=== Crie um programa que solicite ao usuário um número inteiro, que
  * representará a quantidade de números inteiros que serão digitados em seguida e armazenados em um
  * array. Através de um método que receba esse array de números inteiros como parâmetro de entrada,
- * calcule e retorne o MDC (Máximo Divisor Comum) desse conjunto de dados. Valide as entradas para aceitar
- * apenas números positivos (pode ser um método).
+ * calcule e retorne o MMC (Mínimo Múltiplo Comum) desse conjunto de dados. Valide as entradas para
+ * aceitar apenas números positivos (pode ser um método). Utilize decomposição simultânea ou fatoração
+ * simultânea.
  * 
  * 
  */
 
 import java.util.Scanner;
 
-public class Exercicio08 {
+public class Exercicio10 {
 
     public static void main(String[] args) {
         Scanner leia = new Scanner(System.in);
@@ -37,27 +38,31 @@ public class Exercicio08 {
             }
         }
 
-        int mdc = calcularMDC(numeros);
-        System.out.println("MDC: " + mdc);
+        int mmc = calcularMMC(numeros);
+
+        System.out.println("MMC: " + mmc);
     }
 
-    static int calcularMDC(int num1, int num2) {
-        while (num2 != 0) {
-            int temp = num2;
-            num2 = num1 % num2;
-            num1 = temp;
+    static int calcularMMC(int num1, int num2) {
+        int maior = Math.max(num1, num2);
+        int menor = Math.min(num1, num2);
+        int mmc = maior;
+
+        while (mmc % menor != 0) {
+            mmc += maior;
         }
-        return num1;
+
+        return mmc;
     }
 
-    static int calcularMDC(int[] numeros) {
-        int mdc = numeros[0];
+    static int calcularMMC(int[] numeros) {
+        int mmc = numeros[0];
 
         for (int i = 1; i < numeros.length; i++) {
-            mdc = calcularMDC(mdc, numeros[i]);
+            mmc = calcularMMC(mmc, numeros[i]);
         }
 
-        return mdc;
+        return mmc;
     }
 
 }

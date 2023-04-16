@@ -10,7 +10,6 @@
  * 
  */
 
-
 import java.util.Scanner;
 
 public class Exercicio06 {
@@ -25,13 +24,13 @@ public class Exercicio06 {
         int n2 = leia.nextInt();
 
         int[] primos = encontrarPrimos(n1, n2);
-        
+
         for (int i = 0; i < primos.length; i++) {
-            System.out.print("["+primos[i]+"]");
+            System.out.print("[" + primos[i] + "]");
         }
     }
 
-    public static int[] encontrarPrimos(int n1, int n2) {
+    static int[] encontrarPrimos(int n1, int n2) {
         int qtdPrimos = 0;
 
         if (n1 > n2) {
@@ -73,4 +72,3 @@ public class Exercicio06 {
     }
 
 }
-

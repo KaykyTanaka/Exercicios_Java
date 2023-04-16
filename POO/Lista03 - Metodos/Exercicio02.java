@@ -14,61 +14,57 @@
  */
 
 import java.util.Scanner;
+
 public class Exercicio02 {
-	
-	public static void main (String[] args) {
+
+	public static void main(String[] args) {
 		Scanner leia = new Scanner(System.in);
-		
+
 		char opc;
 		boolean x;
 		int temp;
-		
-		
-		do{
+
+		do {
 			System.out.print("Digite uma opcao [C]Celsius, [F]Fahrenheit e [S]Sair: ");
 			opc = leia.nextLine().toUpperCase().charAt(0);
-			
-			if (opc == 'C'){
+
+			if (opc == 'C') {
 				System.out.print("\nDigite a temperatura em Celsius: ");
 				temp = leia.nextInt();
 				System.out.println("A temperatura em Fahrenheit é: " + toF(temp));
-				
+
 				x = true;
-			}else{
-				if (opc == 'F'){
+			} else {
+				if (opc == 'F') {
 					x = true;
 					System.out.print("\nDigite a temperatura em Fahrenheit: ");
 					temp = leia.nextInt();
-					System.out.println("A temperatura em Celsius é: " + toC(temp));					
-				}else{
-					if (opc == 'S'){
+					System.out.println("A temperatura em Celsius é: " + toC(temp));
+				} else {
+					if (opc == 'S') {
 						x = true;
 						System.out.println("Saindo...");
-						
-					}else{
+
+					} else {
 						x = false;
 						System.out.println("Opcao Invalida!");
-						
+
 					}
 				}
 			}
-				
+
 		} while (x == false);
-		
-		
+
 	}
-	
-	static int toF(int temp){
-	
+
+	static int toF(int temp) {
+
 		return (9 * temp / 5) + 32;
 	}
-	
-	static int toC(int temp){
-	
+
+	static int toC(int temp) {
+
 		return 5 * (temp - 32) / 9;
 	}
-	
-	
 
 }
-
