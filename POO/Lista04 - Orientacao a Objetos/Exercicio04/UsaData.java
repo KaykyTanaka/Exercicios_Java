@@ -20,16 +20,9 @@ public class UsaData {
         System.out.print("Digite um ano: ");
         int ano = leia.nextInt();
 
-        data.setDia(dia);
-        data.setMes(mes);
-        data.setAno(ano);
+        data.setData(dia, mes, ano);
 
-        if (data.validarData()) {
-            System.out.println("A data e valida!");
-            data.mostrarData();
-        } else {
-            System.out.println("A data e invalida!");
-        }
+        System.out.println(data);
 
     }
 

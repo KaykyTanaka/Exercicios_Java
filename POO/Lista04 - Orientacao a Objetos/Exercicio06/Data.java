@@ -1,8 +1,9 @@
 /* 
  * Data.java
  * 
- * 4) Criar uma classe para representar uma Data, onde teremos dia, mês e ano. Criar um método booleano
- * que indicará se uma data inserida é válida ou não. Outro método necessário é o mostrar data
+ * 6) Utilizando o exercício 4 (Data) criar uma classe testadora de datas, onde o haverá duas datas e métodos
+ * para comparar se são iguais, qual é a maior e a menor e a diferença, em dias, de uma para a outra. Supor
+ * anos de 365 dias.
  * 
  */
 
@@ -56,6 +57,11 @@ public class Data {
         return ano;
     }
 
+    public int getDias() {
+
+        return dia + mes * 30 + ano * 365;
+    }
+
     public boolean isData() {
         if (mes == 2) {
             return dia <= (ano % 4 == 0 ? 29 : 28);
@@ -67,9 +73,37 @@ public class Data {
         return true;
     }
 
-    @Override
-    public String toString() {
-        return dia + "/" + mes + "/" + ano;
+    public static boolean isData(Data data) {
+
+        return data.isData();
     }
 
+    @Override
+    public boolean equals(Object objeto) {
+
+        Data data = (Data) objeto;
+
+        return this.getDias() - data.getDias() == 0;
+    }
+
+    public Data max(Data data) {
+
+        return (this.getDias() > data.getDias() ? this : data);
+    }
+
+    public Data min(Data data) {
+
+        return (this.getDias() < data.getDias() ? this : data);
+    }
+
+    public int diff(Data data) {
+
+        return this.getDias() - data.getDias();
+    }
+
+    @Override
+    public String toString() {
+
+        return dia + "/" + mes + "/" + ano;
+    }
 }
